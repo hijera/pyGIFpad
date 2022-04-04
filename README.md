@@ -2,10 +2,15 @@
  Play gifs on your Novation Launchpad!
  Btw, animated webp is also supported
 Tested on Launchpad pro and Launchpad S.
+## Demo
+
+
+https://user-images.githubusercontent.com/1131462/161610433-f0b7b50e-edab-4df5-824a-cc65f0094c23.mp4
+
 
 ## Requirements
 * Python 3
-###### Packages:
+### Packages:
 * pygame
 * launchpad_py
 * numpy
