@@ -41,10 +41,10 @@ def drawimg(lp,img):
         for j in row:
 
             if lp_type==1:
-                newj=j/64;
-                lp.LedCtrlXY(y,x,int(newj[0]),int(newj[1]));
+                newj=j/64
+                lp.LedCtrlXY(y,x,int(newj[0]),int(newj[1]))
             else:
-                newj=j/2;
+                newj=j/2
                 lp.LedCtrlXY(y,x,int(newj[0]),int(newj[1]),int(newj[2]))
             y+=1
         x+=1
@@ -71,7 +71,7 @@ for sect in sections:
     print(sect)
     result=re.match(r'CONFIG_BUTTON_([0-9])_([0-9])',sect)
     lib_button_action[int(result[1])][int(result[2])]=config[sect]['gif']
-    lib_button_decode[int(result[1])][int(result[2])]=decode_gif_file(config['DEFAULT']['gif_folder']+'/'+config[sect]['gif']);
+    lib_button_decode[int(result[1])][int(result[2])]=decode_gif_file(config['DEFAULT']['gif_folder']+'/'+config[sect]['gif'])
 
 gdata=decode_gif_file(config['DEFAULT']['gif_folder']+'/'+config['DEFAULT']['defaultgif'])
 
