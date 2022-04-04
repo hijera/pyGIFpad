@@ -3,9 +3,9 @@
  Btw, animated webp is also supported
 Tested on Launchpad pro and Launchpad S.
 
-##Requirements
+## Requirements
 * Python 3
-###Packages:
+###### Packages:
 * pygame
 * launchpad_py
 * numpy
