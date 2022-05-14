@@ -98,10 +98,11 @@ Button coordinates equals to launchpad_py coordinates (look documentation at htt
 
 ## Usage with Ableton Link
 1. Set sync_mode = ableton_link
-2. Launch Ableton, turn on "Link" on the left upper corner of the Ableton's window:
-![изображение](https://user-images.githubusercontent.com/1131462/168413482-9b680d6a-e951-4f49-8484-f5b7c5e38c28.png)
-3. Launch pygifPad. 
-4. Press "play" in Ableton. Animation will be synchronised with Ableton.
+2. Launch Ableton
+3. Launch pygifPad.
+4. Turn on "Link" on the left upper corner of the Ableton's window:
+![изображение](https://user-images.githubusercontent.com/1131462/168413482-9b680d6a-e951-4f49-8484-f5b7c5e38c28.png) 
+5. Press "play" in Ableton. Animation will be synchronised with Ableton.
 
 ## Usage with MIDI
 (Will be pretty easy later)
