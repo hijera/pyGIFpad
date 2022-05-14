@@ -22,7 +22,7 @@ https://user-images.githubusercontent.com/1131462/161610433-f0b7b50e-edab-4df5-8
 * numpy
 * pillow
 * link (if you want to use Ableton Link support)
-* rtmidi (if you want to use RTMidi support)
+* rtmidi (if you want to use Midi support)
 
 ## Configuration parameters
 ```ini
