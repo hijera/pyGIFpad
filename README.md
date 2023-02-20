@@ -111,3 +111,7 @@ Button coordinates equals to launchpad_py coordinates (look documentation at htt
 3. Launch pyGIFpad . It will say that port is not found and will show available ports
 4. Change midi_device_id to preferable port.
 5. Launch pyGIFpad. Animation will be synchronised with midi CLK.
+
+## Examples in Usage
+Videos, where application was used in.
+* https://www.youtube.com/watch?v=D7lNpWupKYI
